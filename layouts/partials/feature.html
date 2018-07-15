@@ -1,0 +1,30 @@
+{{ if .Site.Data.feature.enable }}
+{{ "<!-- Feature Section Start -->" | safeHTML }}
+<section id="feature">
+    <div class="container">
+        <div class="section-heading">
+            {{ with .Site.Data.feature.title }}<h1 class="title wow fadeInDown" data-wow-delay=".3s">{{ . }}</h1>{{ end }}
+            {{ with .Site.Data.feature.subtitle }}<p class="wow fadeInDown" data-wow-delay=".5s">{{ . | safeHTML }}</p>{{ end }}
+        </div>
+        <div class="row">
+            {{ range $index, $elemrnt := .Site.Data.feature.item }}
+            <div class="col-md-4 col-lg-4">
+                {{ $delay := mul (add $index 1) 300 }}
+                <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            {{ with .icon }}<i class="{{ . }}"></i>{{ end }}
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        {{ with .title }}<h4 class="media-heading">{{ . }}</h4>{{ end }}
+                        {{ with .description }}<p>{{ . }}</p>{{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ "<!-- Feature Section End -->" | safeHTML }}
+{{ end }}

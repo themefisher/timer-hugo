@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+
+{{ partial "page-title.html" . }}
+
+<section id="gallery" class="gallery">
+    <div class="container">
+        <div class="row">
+            {{ range $index, $element := .Site.Data.gallery.galleryImages }}
+            <div class="col-md-4 col-sm-6">
+                {{ $delay := mul $index 300 }}
+                <figure class="wow fadeInLeft animated portfolio-item animated" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms" style="visibility: visible; animation-duration: 300ms; -webkit-animation-duration: 300ms; animation-delay: 0ms; -webkit-animation-delay: 0ms; animation-name: fadeInLeft; -webkit-animation-name: fadeInLeft;">
+                    <div class="img-wrapper">
+                        <img src="{{ .image | absURL }}" class="img-fluid" alt="this is a title">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="{{ .image | absURL }}">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}

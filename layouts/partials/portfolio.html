@@ -1,0 +1,40 @@
+{{ if .Site.Params.portfolio.enable }}
+{{ "<!-- Portfolio Section Start -->" | safeHTML }}
+<section id="works" class="works">
+    <div class="container">
+        <div class="section-heading">
+            {{ with .Site.Params.portfolio.title }}<h1 class="title wow fadeInDown" data-wow-delay=".3s">{{ . }}</h1>{{ end }}
+            {{ with .Site.Params.portfolio.subtitle }}<p class="wow fadeInDown" data-wow-delay=".5s">{{ . }}</p>{{ end }}
+        </div>
+        <div class="row">
+            {{ range $index, $element:= where .Data.Pages "Type" "portfolio" }}
+            <div class="col-md-4 col-sm-6">
+                {{ $delay := mul $index 300 }}
+                <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
+                    <div class="img-wrapper">
+                        <img src="{{ .Params.image }}" class="img-fluid" alt="this is a title">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox" href="{{ .Params.image }}">Demo</a>
+                                <a href="{{ .Permalink }}">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                        <h4>
+                            <a href="{{ .Permalink }}">
+                                {{ .Title }}
+                            </a>
+                        </h4>
+                        <p>
+                            {{ .Params.caption }}
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ "<!-- Portfolio Section End -->" | safeHTML }}
+{{ end }}

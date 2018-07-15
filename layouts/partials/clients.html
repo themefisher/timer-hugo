@@ -1,0 +1,21 @@
+{{ if .Site.Data.client.enable }}
+{{ "<!-- Client Section Start -->" | safeHTML }}
+<section id="clients">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {{ with .Site.Data.client.title }}<h2 class="subtitle text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".3s">{{ . }}</h2>{{ end }}
+                {{ with .Site.Data.client.subtitle }}<p class="subtitle-des text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".5s">{{ . }}</p>{{ end }}
+                <div id="clients-logo" class="owl-carousel">
+                    {{ range .Site.Data.client.clientsLogo }}
+                    <div>
+                        <img src="{{ .image | absURL }}" alt="client-logo">
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- Client Section End -->" | safeHTML }}
+{{ end }}

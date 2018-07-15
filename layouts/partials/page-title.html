@@ -1,0 +1,22 @@
+{{"<!-- Global Page Section Start -->" | safeHTML }}
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>{{ .Title }}</h2>
+                    <ol class="breadcrumb list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="{{ .Site.BaseURL }}">
+                                <i class="ion-ios-home"></i>
+                                Home &nbsp; &nbsp;/
+                            </a>
+                        </li>
+                        <li class="active list-inline-item">{{ .Title }}</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- Global Page Section End -->" | safeHTML }}

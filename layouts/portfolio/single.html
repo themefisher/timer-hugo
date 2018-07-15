@@ -1,0 +1,71 @@
+{{ partial "header.html" . }}
+
+{{ "<!-- Page Header -->" | safeHTML }}
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>{{ .Title }}</h2>
+                    <div class="portfolio-meta">
+                        <span>{{ .Date.Format "2006-01-02" }}</span>|
+                        <span> Category: {{ delimit .Params.category ", " }}</span>|
+                        <span> website:
+                            <a href="{{ .Params.liveLink }}">{{ .Params.liveLink }}</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ "<!-- work details part start -->" | safeHTML }}
+<section class="work-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{ with .Params.image }}
+                <div class="work-single-image">
+                    <!-- Work Single Image -->
+                    <img class="img-fluid w-100" src="{{ . | absURL }}" alt="work-single-image">
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- work single Content -->
+                {{ with .Content }}
+                <div class="work-single-content">
+                    {{ . }}
+                </div>
+                {{ end }}
+            </div>
+            <div class="col-lg-4">
+                <!-- sidebar -->
+                <div class="work-single-sidebar">
+                    {{ with .Params.client }}
+                    <h5>Clients</h5>
+                    <h6>{{ . }}</h6>
+                    {{ end }}
+                    {{ with .Params.submitDate }}
+                    <h5>date</h5>
+                    <h6>{{ . }}</h6>
+                    {{ end }}
+                    <h5>category</h5>
+                    <h6>Investment, Business</h6>
+                    {{ with .Params.location }}
+                    <h5>locations</h5>
+                    <h6>{{ . }}</h6>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- work details part end -->" | safeHTML }}
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}

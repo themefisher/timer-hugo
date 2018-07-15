@@ -1,0 +1,50 @@
+{{ if .Site.Data.team.enable }}
+{{ "<!-- Team Section Start -->" | safeHTML }}
+<section id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{ with .Site.Data.team.title }}<h2 class="subtitle text-center">{{ . }}</h2>{{ end }}
+            </div>
+            {{ range $index, $element:= .Site.Data.team.members }}
+            <div class="col-md-3">
+                {{ $delay := mul $index 300 }}
+                <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
+                    {{ with .image }}
+                    <div class="team-img">
+                        <img src="{{ . | absURL }}" class="team-pic" alt="team-member">
+                    </div>
+                    {{ end }}
+                    {{ with .name }}<h3 class="team_name">{{ . }}</h3>{{ end }}
+                    {{ with .designation }}<p class="team_designation">{{ . }}</p>{{ end }}
+                    {{ with .description }}<p class="team_text">{{ . }}</p>{{ end }}
+                    <p class="social-icons">
+                        {{ with .facebook }}
+                        <a href="{{ . }}" class="facebook" target="_blank">
+                            <i class="ion-social-facebook-outline"></i>
+                        </a>
+                        {{ end }}
+                        {{ with .twitter }}
+                        <a href="{{ . }}" target="_blank">
+                            <i class="ion-social-twitter-outline"></i>
+                        </a>
+                        {{ end }}
+                        {{ with .linkedIn }}
+                        <a href="{{ . }}" target="_blank">
+                            <i class="ion-social-linkedin-outline"></i>
+                        </a>
+                        {{ end }}
+                        {{ with .googleplus }}
+                        <a href="{{ . }}" target="_blank">
+                            <i class="ion-social-googleplus-outline"></i>
+                        </a>
+                        {{ end }}
+                    </p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ "<!-- Team Section End -->" | safeHTML }}
+{{ end }}

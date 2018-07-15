@@ -1,0 +1,35 @@
+{{ if .Site.Params.banner.enable }}
+{{ "<!-- Slider Section Start -->" | safeHTML }}
+<section id="hero-area" style='background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="block wow fadeInUp" data-wow-delay=".3s">
+                    {{ "<!-- Slider -->" | safeHTML}}
+                    <section class="cd-intro">
+                        <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s">
+                            {{ with .Site.Params.banner.heading }}<span>{{ . }}</span>{{ end }}
+                            <br>
+                            <span class="cd-words-wrapper">
+                                {{ range $index, $element := .Site.Params.banner.flipText }}
+                                    {{ if eq $index 0 }}
+                                    <b class="is-visible">{{ .title }}</b>
+                                    {{else}}
+                                    <b>{{ .title }}</b>
+                                    {{end}}
+                                {{ end }}
+                            </span>
+                        </h1>
+                    </section>
+                    {{ with .Site.Params.banner.description }}<h2 class="wow fadeInUp animated" data-wow-delay=".6s">{{ . }}</h2>{{ end }}
+                    {{ if .Site.Params.banner.btn }}                    
+                        <a class="btn-lines dark light wow fadeInUp animated btn btn-default btn-green hvr-bounce-to-right" data-wow-delay=".9s"
+                            href="{{ .Site.Params.banner.btnURL }}" target="_blank">{{ .Site.Params.banner.btnText }}</a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- Slider Section End -->" | safeHTML }}
+{{ end }}

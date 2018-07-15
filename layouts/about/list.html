@@ -1,0 +1,50 @@
+{{ partial "header.html" . }}
+
+{{ partial "page-title.html" . }}
+
+{{ "<!-- Company Description Section Start -->" | safeHTML }}
+<section class="company-description">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+                {{ with .Site.Data.about.image }}<img src="{{ . | absURL }}" alt="" class="img-fluid">{{ end }}
+            </div>
+            <div class="col-md-6">
+                <div class="block">
+                    {{ with .Site.Data.about.title }}<h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h3>{{ end }}
+                    {{ with .Site.Data.about.description }}
+                    <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
+                        {{ . | safeHTML }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ "<!--  Company Feature Section Start -->" | safeHTML }}
+<section class="about-feature clearfix">
+    <div class="container-fluid">
+        <div class="row">
+            {{ range $index, $element := .Site.Data.about.aboutItem }}
+            <div class="col-lg-4 px-0">
+                {{ $class := add $index 1 }}
+                <div class="block about-feature-{{ $class }} wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">
+                    {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+                    {{ with .description }}<p>{{ . }}</p>{{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ "<!--  Company Feature Section End -->" | safeHTML }}
+
+{{ partial "team.html" . }}
+
+{{ partial "clients.html" . }}
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}
