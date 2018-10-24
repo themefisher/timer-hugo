@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "timer-hugo"
 
-# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/v2/
 
 # Site Menus
 [menu]
