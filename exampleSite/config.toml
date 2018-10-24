@@ -84,4 +84,9 @@ theme = "timer-hugo"
         title   = "SOME OF OUR FEATURES WORKS"
         subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
 
+    # Footer section
+    [params.footer]
+        customized  = false # Set this variable to true if you customized the design.
+        copyright_owner = "Themefisher"
+        copyright_since = "2018"
     
