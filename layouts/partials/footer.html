@@ -3,16 +3,17 @@
     <div class="container">
         <div class="row content-justify-between">
             <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
-                <p class="copyright">&copy;
+                <p class="copyright">Copyright {{ .Site.Params.footer.copyright_owner }} &copy;
                     <span>
                     {{ if (and (lt .Site.Params.footer.copyright_since (now.Format "2006")) .Site.Params.footer.copyright_since) }}
                         {{ .Site.Params.footer.copyright_since }} - 
                     {{ end }}
                         <script>document.write(new Date().getFullYear())</script>
-                    </span> by {{ .Site.Params.footer.copyright_owner }}.
+                    </span>
                 </p>
                 <p class="copyright">
-                    &copy; <a href="https://github.com/themefisher/timer-hugo" target="_blank">Timer Hugo</a> designed and developed by <a href="http://www.Themefisher.com" target="_blank">Themefisher</a> and <a href="https://github.com/themefisher/timer-hugo/graphs/contributors" target="_blank">these Contributors</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/legalcode" target="_blank"><img src="/images/cc-by.svg" alt="CC BY 3.0" /></a> .{{ if .Site.Params.footer.customized }}<br/>Desaturated from original{{ end }}
+                    <a href="https://github.com/themefisher/timer-hugo" target="_blank">Timer Hugo</a> designed and developed by <a href="http://www.Themefisher.com" target="_blank">Themefisher</a> and <a href="https://github.com/themefisher/timer-hugo/graphs/contributors" target="_blank">these Contributors</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/legalcode" target="_blank"><img src="/images/cc-by.svg" alt="CC BY 3.0" /></a>
+                    {{ if .Site.Params.footer.customized }}<br/>Desaturated from original{{ end }}
                 </p>
             </div>
             <div class="col-md-4 col-12">
