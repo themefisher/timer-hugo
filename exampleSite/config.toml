@@ -32,8 +32,14 @@ theme = "timer-hugo"
 # Site Params
 [params]
     home = "Home"
-    logo = "images/logo.png"
     dateFormat = "6 January 2006"
+    #
+    # You can use either an image or text as logo.
+    # To use an image use 'logo' (logo itself) and 'logo_alt' (alternative text if image cannot displayed)
+    # To use text as logo use 'logo_text'
+    logo = "images/logo.png"
+    logo_alt = "logo"
+    #logo_text = "logo_text"
 
     # Banner Section
     [params.banner]
