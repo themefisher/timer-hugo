@@ -89,4 +89,19 @@ theme = "timer-hugo"
         customized  = false # Set this variable to true if you customized the design.
         copyright_owner = "Themefisher"
         copyright_since = "2018"
+        [[params.footer.social]]
+            icon = "ion-social-facebook"
+            link = "https://facebook.com"
+        [[params.footer.social]]
+            icon = "ion-social-twitter"
+            link = "https://twitter.com"
+        [[params.footer.social]]
+            icon = "ion-social-linkedin"
+            link = "https://linkedin.com"
+        [[params.footer.social]]
+            icon = "ion-social-googleplus"
+            link = "https://googleplus.com"
+        [[params.footer.social]]
+            icon = "ion-social-github"
+            link = "https://github.com"
     

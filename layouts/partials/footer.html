@@ -18,31 +18,13 @@
             <div class="col-md-4 col-12">
                 {{ "<!-- Social Media -->" | safeHTML }}
                 <ul class="social text-center text-md-right text-lg-right">
+                {{ range $index, $element := .Site.Params.footer.social }}
                     <li>
-                        <a href="#" class="facebook">
-                            <i class="ion-social-facebook"></i>
+                        <a href="{{ if eq .link "" }}#{{ else }}{{ .link | safeURL }}{{ end }}" target="_blank">
+                            <i class="{{ .icon }}"></i>
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="twitter">
-                            <i class="ion-social-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="linkedin">
-                            <i class="ion-social-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="googleplus">
-                            <i class="ion-social-googleplus"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="github">
-                            <i class="ion-social-github"></i>
-                        </a>
-                    </li>
+                {{ end }}
                 </ul>
             </div>
         </div>
