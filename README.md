@@ -5,6 +5,8 @@ Timer is bootstrap based HTML5 responsive multipage agency template built using 
 
 Timer has been designed and built with a ‘user first’ approach; Timer offers a beautifully elegant, simple and well-spaced template that follows the principles of design. This flexible template uses fresh and clean design and allows to change it looks to your liking in one click.
 
+Timer Hugo is designed by Themefisher team and contributed by <a href="https://github.com/themefisher/timer-hugo/graphs/contributors" target="_blank">these Contributors</a> .
+
 ## Usage
 
 Create a new Hugo site by typing
