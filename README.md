@@ -1,3 +1,11 @@
+## Biztrx - Business theme (Premium)
+[![Biztrox hugo theme](https://user-images.githubusercontent.com/5304905/48638129-e8ffb200-e9f9-11e8-99a7-b081e27a1941.png)](https://themefisher.com/products/biztrox-hugo-template/)
+
+[Live Preview](http://demo.themefisher.com/themefisher/biztrox-hugo/)
+
+[Download Now](https://themefisher.com/products/biztrox-hugo-template/)
+
+
 # _Timer_ for Hugo
 ![screenshot](https://user-images.githubusercontent.com/16266381/42732703-d21e8e30-8847-11e8-9e2f-b648e2812901.jpg "Home of the website")
 
