@@ -3,29 +3,38 @@
     <div class="container">
         <div class="row content-justify-between">
             <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
-                <p class="copyright">Copyright {{ .Site.Params.footer.copyright_owner }} &copy;
+                <p class="copyright">Copyright:
                     <span>
-                    {{ if (and (lt .Site.Params.footer.copyright_since (now.Format "2006")) .Site.Params.footer.copyright_since) }}
-                        {{ .Site.Params.footer.copyright_since }} - 
-                    {{ end }}
                         <script>document.write(new Date().getFullYear())</script>
-                    </span>
-                </p>
-                <p class="copyright">
-                    <a href="https://github.com/themefisher/timer-hugo" target="_blank">Timer Hugo</a> designed and developed by www.Themefisher.com. Get more <a href="https://themefisher.com/hugo-themes">Hugo themes</a>. 
-                    {{ if .Site.Params.footer.customized }}<br/>Desaturated from original{{ end }}
+                    </span> Design and Developed by
+                    <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>.
+                    <br> Get More Bootstrap Template From Our
+                    <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a>
                 </p>
             </div>
             <div class="col-md-4 col-12">
                 {{ "<!-- Social Media -->" | safeHTML }}
                 <ul class="social text-center text-md-right text-lg-right">
-                {{ range $index, $element := .Site.Params.footer.social }}
                     <li>
-                        <a href="{{ if eq .link "" }}#{{ else }}{{ .link | safeURL }}{{ end }}" target="_blank">
-                            <i class="{{ .icon }}"></i>
+                        <a href="#" class="facebook">
+                            <i class="ion-social-facebook"></i>
                         </a>
                     </li>
-                {{ end }}
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="ion-social-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="linkedin">
+                            <i class="ion-social-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="googleplus">
+                            <i class="ion-social-googleplus"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -38,8 +47,8 @@
 {{ "<!-- Form Validation -->" | safeHTML }}
 <script src="{{ "plugins/form-validation/jquery.form.js" | absURL }}"></script>
 <script src="{{ "plugins/form-validation/jquery.validate.min.js" | absURL }}"></script>
-{{ "<!-- owl carouserl js -->" | safeHTML }}
-<script src="{{ "plugins/owl-carousel/owl.carousel.min.js" | absURL }}"></script>
+{{ "<!-- slick slider -->" | safeHTML }}
+<script src="{{ "plugins/slick/slick.min.js" | absURL }}"></script>
 {{ "<!-- bootstrap js -->" | safeHTML }}
 <script src="{{ "plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
 {{ "<!-- wow js -->" | safeHTML }}
@@ -47,7 +56,7 @@
 {{ "<!-- slider js -->" | safeHTML }}
 <script src="{{ "plugins/slider/slider.js" | absURL }}"></script>
 {{ "<!-- Fancybox -->" | safeHTML }}
-<script src="{{ "plugins/fancybox/jquery.fancybox.min.js" | absURL }}"></script>
+<script src="{{ "plugins/facncybox/jquery.fancybox.js" | absURL }}"></script>
 {{ "<!-- template main js -->" | safeHTML }}
 <script src="{{ "js/main.js" | absURL }}"></script>
 </body>

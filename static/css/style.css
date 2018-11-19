@@ -1,11 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Glegoo);
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -34,6 +40,10 @@ ul li {
 
 a:hover {
   text-decoration: none;
+}
+
+.slick-slide:focus {
+  outline: 0;
 }
 
 .section-heading {
@@ -142,11 +152,12 @@ a:hover {
 .global-page-header .breadcrumb {
   background: none;
   font-size: 16px;
-  padding: 8px  0;
+  padding: 8px 0;
   display: block;
 }
 
-.global-page-header .breadcrumb .active, .global-page-header .breadcrumb li a {
+.global-page-header .breadcrumb .active,
+.global-page-header .breadcrumb li a {
   color: #fff;
 }
 
@@ -792,17 +803,6 @@ article {
   padding: 30px 0 60px;
 }
 
-#clients .owl-carousel .owl-item {
-  margin-right: 10px;
-}
-
-#clients .owl-carousel .owl-item img {
-  display: block;
-  width: 100%;
-  transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-}
-
 #contact-section {
   padding: 90px 0;
 }
@@ -853,19 +853,25 @@ article {
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
-#contact-section .address, #contact-section .email, #contact-section .phone {
+#contact-section .address,
+#contact-section .email,
+#contact-section .phone {
   text-align: center;
   background: #F7F7F7;
   padding: 20px 0 40px 0;
   margin-bottom: 20px;
 }
 
-#contact-section .address i, #contact-section .email i, #contact-section .phone i {
+#contact-section .address i,
+#contact-section .email i,
+#contact-section .phone i {
   font-size: 45px;
   color: #02bdd5;
 }
 
-#contact-section .address h5, #contact-section .email h5, #contact-section .phone h5 {
+#contact-section .address h5,
+#contact-section .email h5,
+#contact-section .phone h5 {
   font-size: 16px;
   line-height: 1.4;
 }
@@ -896,7 +902,8 @@ article {
   padding: 10px;
 }
 
-#error, #success {
+#error,
+#success {
   display: none;
   margin-bottom: 10px;
 }
@@ -927,13 +934,14 @@ article {
 }
 
 .post-content blockquote p {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
 }
 
-.single-post .post-content ol li, .single-post .post-content ul li {
+.single-post .post-content ol li,
+.single-post .post-content ul li {
   color: #666;
 }
 
@@ -998,6 +1006,7 @@ article {
   background: #eae9ec;
   color: #848484;
 }
+
 .work-single blockquote p {
   margin-bottom: 0;
 }
@@ -1304,7 +1313,8 @@ ul.social-icons li {
   height: 36px;
 }
 
-#copyright a:hover, #copyright nav .menu li a:hover {
+#copyright a:hover,
+#copyright nav .menu li a:hover {
   color: #e4e4e4 !important;
 }
 

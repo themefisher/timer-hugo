@@ -7,7 +7,7 @@
                 {{ with .Site.Data.team.title }}<h2 class="subtitle text-center">{{ . }}</h2>{{ end }}
             </div>
             {{ range $index, $element:= .Site.Data.team.members }}
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6">
                 {{ $delay := mul $index 300 }}
                 <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
                     {{ with .image }}

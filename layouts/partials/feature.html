@@ -8,7 +8,7 @@
         </div>
         <div class="row">
             {{ range $index, $elemrnt := .Site.Data.feature.item }}
-            <div class="col-md-4 col-lg-4">
+            <div class="col-sm-6 col-lg-4">
                 {{ $delay := mul (add $index 1) 300 }}
                 <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
                     <div class="media-left">
