@@ -1,6 +1,7 @@
 ---
 title: "Space Shouldn't Be the Final Frontier"
 date: 2018-07-15T12:21:58+06:00
+description : "This is meta description"
 type: post
 image: images/blog/post-1.jpg
 author: Admin

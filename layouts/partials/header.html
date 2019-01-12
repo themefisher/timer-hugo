@@ -4,9 +4,9 @@
     {{ "<!-- Basic Page Needs -->" | safeHTML }}
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
+    
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
     {{ .Hugo.Generator }}
     
     {{ "<!-- Mobile Specific Metas -->" | safeHTML }}
@@ -30,7 +30,8 @@
     {{ "<!-- hover -->" | safeHTML }}
     <link rel="stylesheet" href="{{ "plugins/hover/hover-min.css" | absURL }}">
     {{ "<!-- template main css file -->" | safeHTML }}
-    <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+    {{ $styles := resources.Get "css/style.css" | minify}}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 </head>
 
 <body>
