@@ -21,6 +21,11 @@ Timer Hugo is designed by Themefisher team and contributed by <a href="https://g
 This Template is released under [Creative Commons Attribution 3.0 (CC-BY-3.0) License](https://creativecommons.org/licenses/by/3.0/)
 If you want to remove the credit simply make a [donation](https://www.paypal.me/Themefisher), so that we can run our contribution to hugo community.
 
+## Useful Links
+
+[Installation](https://gohugo.io/getting-started/installing/) | [More Hugo Themes By Themefisher](https://themefisher.com/hugo-themes/)  
+
+
 
 ## Hire Us
 We are available for Hiring of your next HUGO project.
@@ -28,5 +33,6 @@ We are available for Hiring of your next HUGO project.
 * PSD To Hugo
 * Wordpress To Hugo Migration 
 * Hugo custom theme development
+* Mirgration your existing website into hugo .
 
  Drop Us a mail [themefisher@gmail.com](mailto:themefisher@gmail.com)
