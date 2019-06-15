@@ -10,23 +10,23 @@ theme = "timer-hugo"
     # Navbar Menus
     [[menu.nav]]
         name    = "About"
-        url     = "/about"
+        url     = "about"
         weight  = 2
     [[menu.nav]]
         name    = "Service"
-        url     = "/service"
+        url     = "service"
         weight  = 3
     [[menu.nav]]
         name    = "Gallery"
-        url     = "/gallery"
+        url     = "gallery"
         weight  = 4
     [[menu.nav]]
         name    = "Blog"
-        url     = "/blog"
+        url     = "blog"
         weight  = 5
     [[menu.nav]]
         name    = "Contact"
-        url     = "/contact"
+        url     = "contact"
         weight  = 6
 
 # Site Params
