@@ -18,6 +18,9 @@ Timer has been designed and built with a ‘user first’ approach; Timer offers
 Timer Hugo is designed by Themefisher team and contributed by <a href="https://github.com/themefisher/timer-hugo/graphs/contributors" target="_blank">these Contributors</a> .
 
 
+**The images are only for demonstration purpose, Please don't use those images.**
+
+
 ## Table of Contents
 
 - [Demo](#demo)
