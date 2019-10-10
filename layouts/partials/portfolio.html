@@ -7,7 +7,7 @@
             {{ with .Site.Params.portfolio.subtitle }}<p class="wow fadeInDown" data-wow-delay=".5s">{{ . }}</p>{{ end }}
         </div>
         <div class="row">
-            {{ range $index, $element:= where .Data.Pages "Type" "portfolio" }}
+            {{ range $index, $element:= where .Site.RegularPages "Type" "portfolio" }}
             <div class="col-md-4 col-sm-6">
                 {{ $delay := mul $index 300 }}
                 <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
