@@ -1,7 +1,5 @@
 <div align="center">
-
-# [Timer Hugo](https://themefisher.com/hugo-themes/)
-
+<h1><a href="https://themefisher.com/hugo-themes/">Timer Hugo</a></h1>
 [![GitHub stars](https://img.shields.io/github/stars/themefisher/timer-hugo.svg)](https://github.com/themefisher/timer-hugo/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/themefisher/timer-hugo.svg)](https://github.com/themefisher/timer-hugo/issues) 
 [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themefisher/timer-hugo.svg?maxAge=2592000)]() 
@@ -37,7 +35,7 @@ Timer Hugo is designed by Themefisher team and contributed by <a href="https://g
 |---|---|---|---|
 | ![About page](https://user-images.githubusercontent.com/37659754/54080449-36da5600-431a-11e9-8848-424a385c4ba2.png) | ![Service page](https://user-images.githubusercontent.com/37659754/54080452-380b8300-431a-11e9-8f5f-7ba7fd07a864.png) | ![Gallary page](https://user-images.githubusercontent.com/37659754/54080451-3772ec80-431a-11e9-8b72-4e6c6b8a64a2.png) | ![Contact page](https://user-images.githubusercontent.com/37659754/54080450-36da5600-431a-11e9-90db-0a55971c1fe3.png)
 
-[Live Demo](https://themes.gohugo.io/theme/timer-hugo/).
+[Live Demo](http://demo.themefisher.com/timer-hugo/).
 
 ## Installation
 
@@ -49,7 +47,7 @@ $ cd themes
 $ git clone github.com:themefisher/timer-hugo.git
 ```
 
-[Full Documentation](https://themes.gohugo.io/theme/timer-hugo/blog/installation/).
+[Full Documentation](http://demo.themefisher.com/timer-hugo/blog/installation/).
 
 
 ## Main features
@@ -79,10 +77,10 @@ We are available for Hiring of your next HUGO project. Drop Us a mail [themefish
 
 ## Premium Themes
 
-| [![Mega-Bundle-HUGO](https://user-images.githubusercontent.com/37659754/63633830-30ddf480-c670-11e9-8a8b-04a142f8ffc1.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![Bexer](https://user-images.githubusercontent.com/37659754/54068892-84ec4c80-427b-11e9-9952-5d455c259145.png)](https://themefisher.com/products/bexer-hugo-theme/) | [![Small Apps](https://user-images.githubusercontent.com/37659754/58609417-50f85480-82c9-11e9-8958-e501af844294.jpg)](https://themefisher.com/products/small-apps-hugo-app-landing-theme/) |
+| [![Mega-Bundle-HUGO](https://user-images.githubusercontent.com/37659754/63633830-30ddf480-c670-11e9-8a8b-04a142f8ffc1.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![Bexer](https://user-images.githubusercontent.com/37659754/54068892-84ec4c80-427b-11e9-9952-5d455c259145.png)](https://themefisher.com/products/bexer-hugo-theme/) | [![orbitor](https://user-images.githubusercontent.com/37659754/68539222-411d8a00-03aa-11ea-8858-ede3e405657f.png)](https://gethugothemes.com/products/orbitor/) |
 |:---:|:---:|:---:|
-| **Hugo Mega Bundle**  | **Bexer**  | **Small Apps**  |
-| [![Dtox](https://user-images.githubusercontent.com/37659754/54068836-07284100-427b-11e9-8ff2-48eec3220a26.png)](https://themefisher.com/products/dtox-hugo-theme/) | [![Agico](https://user-images.githubusercontent.com/37659754/57753899-16aa8700-770f-11e9-9a3d-d3fc45313fbd.png)](https://themefisher.com/products/agico-hugo-theme/) | [![Airspace](https://user-images.githubusercontent.com/37659754/57754161-9d5f6400-770f-11e9-8a76-778fbb9910c4.png)](https://themefisher.com/products/airspace-hugo/) |
-| **Dtox** | **Agico** | **Airspace** |
-| [![Agen](https://user-images.githubusercontent.com/37659754/63633832-3a675c80-c670-11e9-8380-a7b5f8f82b76.png)](https://themefisher.com/products/agen-hugo-agency-template/) | [![Biztrox](https://user-images.githubusercontent.com/37659754/54068875-6ab26e80-427b-11e9-876e-4670bdacb975.png)](https://themefisher.com/products/biztrox-hugo-template/) |  [![Biztrox](https://user-images.githubusercontent.com/37659754/65814602-ce938900-e205-11e9-9d26-d5ad1b0cd1da.png)](https://themefisher.com/hugo-themes/) |
+| **Hugo Mega Bundle**  | **Bexer**  | **Orbitor**  |
+| [![red-lab](https://user-images.githubusercontent.com/37659754/68538974-17169880-03a7-11ea-9ff9-ef15706dc1a7.png)](https://gethugothemes.com/products/redlab-hugo/) | [![Agico](https://user-images.githubusercontent.com/37659754/57753899-16aa8700-770f-11e9-9a3d-d3fc45313fbd.png)](https://themefisher.com/products/agico-hugo-theme/) | [![enov](https://user-images.githubusercontent.com/37659754/68539205-0fa4be80-03aa-11ea-85aa-625cf5a79600.png)](https://gethugothemes.com/products/enov-hugo/) |
+| **Red Lab** | **Agico** | **Enov** |
+| [![Agen](https://user-images.githubusercontent.com/37659754/63633832-3a675c80-c670-11e9-8380-a7b5f8f82b76.png)](https://themefisher.com/products/agen-hugo-agency-template/) | [![Biztrox](https://user-images.githubusercontent.com/37659754/54068875-6ab26e80-427b-11e9-876e-4670bdacb975.png)](https://themefisher.com/products/biztrox-hugo-template/) |  [![all](https://user-images.githubusercontent.com/37659754/65814602-ce938900-e205-11e9-9d26-d5ad1b0cd1da.png)](https://gethugothemes.com/shop/) |
 | **Agen** | **Biztrox** | **More Hugo Themes** |
