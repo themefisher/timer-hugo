@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 {{ "<!-- Page Header -->" | safeHTML }}
 <section class="global-page-header">
@@ -68,4 +68,4 @@
 
 {{ partial "cta.html" . }}
 
-{{ partial "footer.html" . }}
+{{ end }}

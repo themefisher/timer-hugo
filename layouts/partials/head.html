@@ -1,0 +1,33 @@
+<head>
+  {{ "<!-- Basic Page Needs -->" | safeHTML }}
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ hugo.Generator }}
+  
+  {{ "<!-- Mobile Specific Metas -->" | safeHTML }}
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }}</title>
+  <link rel="icon" href="{{ "images/favicon.ico" | absURL }}">
+
+  {{ "<!-- Twitter Bootstrs CSS -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "plugins/bootstrap/bootstrap.min.css" | absURL }}">
+  {{ "<!-- Ionicons Fonts Css -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "plugins/ionicons/ionicons.min.css" | absURL }}">
+  {{ "<!-- animate css -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "plugins/animate-css/animate.css" | absURL }}">
+  {{ "<!-- Hero area slider css-->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "plugins/slider/slider.css" | absURL }}">
+  {{ "<!-- slick slider -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "plugins/slick/slick.css" | absURL }}">
+  {{ "<!-- Fancybox -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "plugins/facncybox/jquery.fancybox.css" | absURL }}">
+  {{ "<!-- hover -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "plugins/hover/hover-min.css" | absURL }}">
+  {{ "<!-- template main css file -->" | safeHTML }}
+  {{ $styles := resources.Get "css/style.css" | minify}}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+</head>
