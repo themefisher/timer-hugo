@@ -1,12 +1,6 @@
 <div align="center">
 <h1><a href="https://themefisher.com/hugo-themes/">Timer Hugo</a></h1>
-[![GitHub stars](https://img.shields.io/github/stars/themefisher/timer-hugo.svg)](https://github.com/themefisher/timer-hugo/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/themefisher/timer-hugo.svg)](https://github.com/themefisher/timer-hugo/issues) 
-[![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themefisher/timer-hugo.svg?maxAge=2592000)]() 
-[![GitHub forks](https://img.shields.io/github/forks/themefisher/timer-hugo.svg)](https://github.com/themefisher/timer-hugo/network)
-
 <img src="https://user-images.githubusercontent.com/37659754/54080446-1dd1a500-431a-11e9-9bd4-4e19caa198ba.gif" alt="screenshot" width="100%">
-
 </div>
 
 Timer is bootstrap based HTML5 responsive multipage agency template built using HTML5/CSS3 features and suitable for creative companies, agencies, and freelancers which need a professional way to showcase their projects, services, and sell their products. 
