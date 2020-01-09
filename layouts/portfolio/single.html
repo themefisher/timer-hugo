@@ -24,17 +24,13 @@
 <section class="work-single">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-8">
                 {{ with .Params.image }}
                 <div class="work-single-image">
                     <!-- Work Single Image -->
                     <img class="img-fluid w-100" src="{{ . | absURL }}" alt="work-single-image">
                 </div>
                 {{ end }}
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8">
                 <!-- work single Content -->
                 {{ with .Content }}
                 <div class="work-single-content">
