@@ -26,20 +26,20 @@
 {{ "<!-- footer section end -->" | safeHTML }}
 
 {{ "<!-- jquery -->" | safeHTML }}
-<script src="{{ "plugins/jQurey/jquery.min.js" | absURL }}"></script>
+<script src="{{ `plugins/jQurey/jquery.min.js` | absURL }}"></script>
 {{ "<!-- Form Validation -->" | safeHTML }}
-<script src="{{ "plugins/form-validation/jquery.form.js" | absURL }}"></script>
-<script src="{{ "plugins/form-validation/jquery.validate.min.js" | absURL }}"></script>
+<script src="{{ `plugins/form-validation/jquery.form.js` | absURL }}"></script>
+<script src="{{ `plugins/form-validation/jquery.validate.min.js` | absURL }}"></script>
 {{ "<!-- slick slider -->" | safeHTML }}
-<script src="{{ "plugins/slick/slick.min.js" | absURL }}"></script>
+<script src="{{ `plugins/slick/slick.min.js` | absURL }}"></script>
 {{ "<!-- bootstrap js -->" | safeHTML }}
-<script src="{{ "plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
+<script src="{{ `plugins/bootstrap/bootstrap.min.js` | absURL }}"></script>
 {{ "<!-- wow js -->" | safeHTML }}
-<script src="{{ "plugins/wow-js/wow.min.js" | absURL }}"></script>
+<script src="{{ `plugins/wow-js/wow.min.js` | absURL }}"></script>
 {{ "<!-- slider js -->" | safeHTML }}
-<script src="{{ "plugins/slider/slider.js" | absURL }}"></script>
+<script src="{{ `plugins/slider/slider.js` | absURL }}"></script>
 {{ "<!-- Fancybox -->" | safeHTML }}
-<script src="{{ "plugins/facncybox/jquery.fancybox.js" | absURL }}"></script>
+<script src="{{ `plugins/facncybox/jquery.fancybox.js` | absURL }}"></script>
 {{ "<!-- template main js -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
