@@ -6,23 +6,23 @@ theme = "timer-hugo"
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
 # Navbar Menus
-[[menu.nav]]
+[[menu.main]]
 name    = "About"
 url     = "about"
 weight  = 2
-[[menu.nav]]
+[[menu.main]]
 name    = "Service"
 url     = "service"
 weight  = 3
-[[menu.nav]]
+[[menu.main]]
 name    = "Gallery"
 url     = "gallery"
 weight  = 4
-[[menu.nav]]
+[[menu.main]]
 name    = "Blog"
 url     = "blog"
 weight  = 5
-[[menu.nav]]
+[[menu.main]]
 name    = "Contact"
 url     = "contact"
 weight  = 6
