@@ -38,7 +38,7 @@ Navigate to your themes folder in your Hugo site and use the following commands:
 ```
 $ mkdir themes
 $ cd themes
-$ git clone github.com:themefisher/timer-hugo.git
+$ git clone https://github.com/themefisher/timer-hugo.git
 ```
 
 [Full Documentation](http://demo.themefisher.com/timer-hugo/blog/installation/).
