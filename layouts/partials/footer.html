@@ -1,27 +1,29 @@
 {{ "<!-- Footer Section Start -->" | safeHTML }}
 <footer id="footer">
-    <div class="container">
-        <div class="row content-justify-between">
-            <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
-                <p class="copyright">Copyright:
-                    <span>
-                        <script>document.write(new Date().getFullYear())</script>
-                    </span> Design and Developed by
-                    <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>.
-                    <br> Get More Bootstrap Template From Our
-                    <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a>
-                </p>
-            </div>
-            <div class="col-md-4 col-12">
-                {{ "<!-- Social Media -->" | safeHTML }}
-                <ul class="social text-center text-md-right text-lg-right">
-                    {{ range .Site.Params.socialIcon }}
-                    <li><a href="{{ .url | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-                    {{ end }}
-                </ul>
-            </div>
-        </div>
+  <div class="container">
+    <div class="row content-justify-between">
+      <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
+        <p class="copyright">Copyright:
+          <span>
+            <script>
+              document.write(new Date().getFullYear())
+            </script>
+          </span> Design and Developed by
+          <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>.
+          <br> Get More Bootstrap Template From Our
+          <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a>
+        </p>
+      </div>
+      <div class="col-md-4 col-12">
+        {{ "<!-- Social Media -->" | safeHTML }}
+        <ul class="social text-center text-md-right text-lg-right">
+          {{ range .Site.Params.socialIcon }}
+          <li><a href="{{ .url | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+          {{ end }}
+        </ul>
+      </div>
     </div>
+  </div>
 </footer>
 {{ "<!-- footer section end -->" | safeHTML }}
 
@@ -42,10 +44,17 @@
 <script src="{{ $script.Permalink }}"></script>
 {{ "<!-- google analitycs -->" | safeHTML }}
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
-    ga('send', 'pageview');
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
+  ga('send', 'pageview');
 </script>
