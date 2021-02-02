@@ -12,15 +12,28 @@
 					</button>
 
 					<div class="collapse navbar-collapse" id="navigation">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a>
+						<ul class="navbar-nav ml-auto">{{ range site.Menus.main }}
+							{{ if .HasChildren }}
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="false">
+									{{ .Name }}
+								</a>
+								<div class="dropdown-menu">
+									{{ range .Children }}
+									<a class="dropdown-item"
+										href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
+									{{ end }}
+								</div>
 							</li>
-							{{ range .Site.Menus.main }}
+							{{ else }}
 							<li class="nav-item">
-								<a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+								<a class="nav-link"
+									href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
 							</li>
 							{{ end }}
+							{{ end }}
+						</ul>
 					</div>
 				</nav>
 			</div>
