@@ -7,7 +7,7 @@
 				<div class="block">
 					<h2>{{ .Title }}</h2>
 					<div class="portfolio-meta">
-						<span>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>|
+						<span>{{ .Date.Format (.Site.Params.dateFormat | default "Jan 02, 2006") }}</span>|
 						<span> Tags:
 							{{ if ne .Params.tags nil }}{{ delimit .Params.tags ", " }}{{ end }}
 						</span>
