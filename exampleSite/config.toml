@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://demo.gethugothemes.com/timer/examplesite/"
 languageCode = "en-us"
 title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "timer-hugo"
@@ -7,29 +7,29 @@ theme = "timer-hugo"
 
 # Navbar Menus
 [[menu.main]]
-name    = "Home"
-url     = "/"
-weight  = 1
+name = "Home"
+url = "/"
+weight = 1
 [[menu.main]]
-name    = "About"
-url     = "about"
-weight  = 2
+name = "About"
+url = "about/"
+weight = 2
 [[menu.main]]
-name    = "Service"
-url     = "service"
-weight  = 3
+name = "Service"
+url = "service/"
+weight = 3
 [[menu.main]]
-name    = "Gallery"
-url     = "gallery"
-weight  = 4
+name = "Gallery"
+url = "gallery/"
+weight = 4
 [[menu.main]]
-name    = "Blog"
-url     = "blog"
-weight  = 5
+name = "Blog"
+url = "blog/"
+weight = 5
 [[menu.main]]
-name    = "Contact"
-url     = "contact"
-weight  = 6
+name = "Contact"
+url = "contact/"
+weight = 6
 
 # Site Params
 [params]
@@ -46,43 +46,43 @@ contactFormAction = "#" # contact form works with https://formspree.io
 
 # Banner Section
 [params.banner]
-enable  = true
+enable = true
 bgImage = "images/slider.jpg"
 heading = "HI, MY NAME IS JONATHON & I AM A"
 description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
 # button
-btn     = true
+btn = true
 btnText = "Download More"
-btnURL  = "https://themefisher.com/"
+btnURL = "https://themefisher.com/"
 
 # flip text
 [[params.banner.flipText]]
-title   = "DESIGNER"
+title = "DESIGNER"
 [[params.banner.flipText]]
-title   = "DEVELOPER"
+title = "DEVELOPER"
 [[params.banner.flipText]]
-title   = "FATHER"
+title = "FATHER"
 
 # Homepage About Section
 [params.about]
-enable  = true
-title   = "ABOUT ME"
+enable = true
+title = "ABOUT ME"
 content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
-image   = "images/about/about.jpg"
+image = "images/about/about.jpg"
 
 # Call to Action
 [params.cta]
-enable  = true
-title   = "SO WHAT YOU THINK ?"
+enable = true
+title = "SO WHAT YOU THINK ?"
 content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
 btnText = "Contact with me"
-btnURL  = "/contact"
+btnURL = "contact/"
 
 # Portfolio Section On Homepage
 [params.portfolio]
-enable  = true
-title   = "Latest Works"
-subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+enable = true
+title = "Latest Works"
+subtitle = "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
 
 # social icon
 [[params.socialIcon]]
