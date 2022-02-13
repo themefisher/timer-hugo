@@ -1,7 +1,9 @@
-baseURL = "https://demo.gethugothemes.com/timer/examplesite/"
+baseURL = "https://demo.gethugothemes.com/timer/site/"
 languageCode = "en-us"
 title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "timer-hugo"
+# post pagination
+paginate = "2" # see https://gohugo.io/extras/pagination/
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
@@ -10,22 +12,27 @@ theme = "timer-hugo"
 name = "Home"
 url = "/"
 weight = 1
+
 [[menu.main]]
 name = "About"
 url = "about/"
 weight = 2
+
 [[menu.main]]
 name = "Service"
 url = "service/"
 weight = 3
+
 [[menu.main]]
 name = "Gallery"
 url = "gallery/"
 weight = 4
+
 [[menu.main]]
 name = "Blog"
 url = "blog/"
 weight = 5
+
 [[menu.main]]
 name = "Contact"
 url = "contact/"
@@ -37,7 +44,7 @@ home = "Home"
 logo = "images/logo.png"
 dateFormat = "6 January 2006"
 # Meta data
-description = "Airspace Hugo theme"
+description = "Timer Hugo theme"
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"

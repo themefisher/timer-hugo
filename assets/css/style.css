@@ -1325,4 +1325,37 @@ ul.social-icons li {
   text-decoration: none;
 }
 
-/*# sourceMappingURL=maps/style.css.map */
+/* blog */
+.pagination {
+  justify-content: center;
+  padding: 30px 0;
+  margin-bottom: 0;
+}
+
+.pagination .page-item .page-link {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  border-radius: 0;
+  border: 1px solid #dedede;
+  text-align: center;
+  margin: 0 4px;
+  font-weight: 500;
+  color: #02bdd5;
+  padding: 0;
+  line-height: 41px;
+  box-shadow: 0 5px 25px rgba(#000, .05);
+}
+
+.pagination .page-item.active .page-link {
+  background: #02bdd5;
+  color: #fff;
+  border-color: #02bdd5;
+}
+
+.pagination .page-item .page-link:focus,
+.pagination .page-item .page-link:hover {
+  box-shadow: none;
+  background: #02bdd5;
+  color: #fff;
+}
