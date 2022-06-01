@@ -26,14 +26,15 @@
 </p>
 
 ---
+
 ## Features
+
 - Google analytics  support
 - Contact form Support
-- Google map support 
+- Google map support
 - Google page speed optimized ( 67% )
 - Open graph meta tag
 - Twitter card meta tag
-
 
 ## Local development
 
@@ -47,6 +48,7 @@ $ cd timer-hugo/exampleSite/
 # Start local dev server
 $ hugo server --themesDir ../..
 ```
+
 Or Check out [Full Documentation](https://docs.gethugothemes.com/timer/?ref=github).
 
 ## Content Management System
@@ -59,6 +61,7 @@ repository in Forestry](https://app.forestry.io/quick-start?repo=themefisher/tim
 you will be able to edit and preview your site ✨.
 
 Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
+
 ## Deployment and hosting
 
 [![Deploy to
@@ -67,11 +70,13 @@ Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com
 Follow the steps.
 
 ## Prefer a video? (Hugo + Netlify + Forestry)
+
 Build your website with **timer hugo** theme by following these easy steps (No Coding Required!)
 [Video Tutorial](https://youtu.be/ResipmZmpDU).
 
 <!-- reporting issue -->
 ## Reporting Issues
+
 We use GitHub Issues as the official bug tracker for the timer Template. Please Search [existing
 issues](https://github.com/themefisher/timer-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
@@ -79,11 +84,11 @@ issue](https://github.com/themefisher/timer-hugo/issues).
 
 <!-- ## Timer Hugo Powered Websites
 
-
 View all the websites powered by Timer Hugo [here](https://github.com/themefisher/timer-hugo/wiki/All-timer-hugo-theme-Powered-Websites). Want to submit your own website powered by Timer Hugo? You can submit it [here](https://github.com/themefisher/timer-hugo/discussions/56). -->
 
 <!-- licence -->
 ## License
+
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
 [Gethugothemes](https://gethugothemes.com)
 
@@ -94,6 +99,7 @@ share those images.
 
 <!-- resources -->
 ## Special Thanks
+
 - [Bootstrap](https://getbootstrap.com)
 - [Jquery](https://jquery.com)
 - [Slick Slider](https://kenwheeler.github.io/slick/)
@@ -106,15 +112,16 @@ share those images.
 - [Google Fonts](https://fonts.google.com/)
 - [All Contributors](https://github.com/themefisher/timer-hugo/graphs/contributors)
 
-
 ## Hire Us
-Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo. 
 
-If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our 
+Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo.
+
+If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our
 [Services](https://gethugothemes.com/services/?utm_source=timer_github&utm_medium=referral&utm_campaign=github_theme_readme)**
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle/?utm_source=timer_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Meghna](https://demo.gethugothemes.com/thumbnails/meghna.webp)](https://gethugothemes.com/products/meghna-hugo-theme/) | [![Northendlab](https://demo.gethugothemes.com/thumbnails/northendlab.webp)](https://gethugothemes.com/products/northendlab/) |
+
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=timer_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Meghna](https://demo.gethugothemes.com/thumbnails/meghna.png)](https://gethugothemes.com/products/meghna-hugo-theme/) | [![Northendlab](https://demo.gethugothemes.com/thumbnails/northendlab.png)](https://gethugothemes.com/products/northendlab/) |
 |:---:|:---:|:---:|
 | **Get 50+ Premium Hugo Themes Bundle** | **Meghna** | **Northendlab** |
