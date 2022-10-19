@@ -35,7 +35,7 @@
 - Google analytics  support
 - Contact form Support
 - Google map support
-- Google page speed optimized ( 67% )
+- Google page speed optimized ( 87% )
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -87,7 +87,11 @@ issue](https://github.com/themefisher/timer-hugo/issues).
 
 <!-- ## Timer Hugo Powered Websites
 
-View all the websites powered by Timer Hugo [here](https://github.com/themefisher/timer-hugo/wiki/All-timer-hugo-theme-Powered-Websites). Want to submit your own website powered by Timer Hugo? You can submit it [here](https://github.com/themefisher/timer-hugo/discussions/56). -->
+View all the websites powered by Timer Hugo [here](https://github.com/themefisher/timer-hugo/wiki/All-timer-hugo-theme-Powered-Websites). -->
+
+## Add your website to the Gethugothemes showcase
+Want to submit your own website powered by Timer Hugo to the Gethugothemes showcase? You can submit it [here](https://gethugothemes.com/showcase).
+
 
 <!-- licence -->
 ## License
