@@ -1,5 +1,8 @@
 
-<h1 align=center>Timer Hugo | <a target="_blank" href="https://demo.gethugothemes.com/timer" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftimer%2F">Page Speed (67%)</a></h1>
+<h1 align=center>Timer Hugo</h1>
+<p align=center>Timer is suitable for creative companies, agencies, and freelancers which need a professional way to showcase their projects, services, and sell their products.</p>
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/timer" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftimer%2Fsite%2F&form_factor=desktop">Page Speed (87%)</a></h2>
+
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.60.0" alt="Contributors">
@@ -27,7 +30,7 @@
 
 ---
 
-## Features
+## Key Features
 
 - Google analytics  support
 - Contact form Support
@@ -122,6 +125,6 @@ If you need to customize the theme or complete website development from scratch,
 <!-- premium themes -->
 ## Premium Themes By Us
 
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=timer_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Meghna](https://demo.gethugothemes.com/thumbnails/meghna.png)](https://gethugothemes.com/products/meghna-hugo-theme/) | [![Northendlab](https://demo.gethugothemes.com/thumbnails/northendlab.png)](https://gethugothemes.com/products/northendlab/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=timer_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Meghna](https://demo.gethugothemes.com/thumbnails/meghna.png)](https://gethugothemes.com/products/meghna-hugo-theme/) | [![Northendlab](https://demo.gethugothemes.com/thumbnails/northendlab.png)](https://gethugothemes.com/products/northendlab/) |
 |:---:|:---:|:---:|
-| **Get 50+ Premium Hugo Themes Bundle** | **Meghna** | **Northendlab** |
+| **Get 55+ Premium Hugo Themes Bundle** | **Meghna** | **Northendlab** |
