@@ -83,7 +83,7 @@ enable = true
 title = "SO WHAT YOU THINK ?"
 content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
 btnText = "Contact with me"
-btnURL = "contact/"
+btnURL = "/contact"
 
 # Portfolio Section On Homepage
 [params.portfolio]
