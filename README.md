@@ -1,7 +1,7 @@
 
 <h1 align=center>Timer Hugo</h1>
 <p align=center>Timer is suitable for creative companies, agencies, and freelancers which need a professional way to showcase their projects, services, and sell their products.</p>
-<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/timer" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftimer%2Fsite%2F&form_factor=desktop">Page Speed (87%)</a></h2>
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/timer" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Ftimer%2Fsite%2F&form_factor=desktop">Page Speed (87%)🚀</a></h2>
 
 
 <p align=center>
@@ -30,16 +30,25 @@
 
 ---
 
-## Key Features
+## 🔑Key Features
+- 📄 8+ Pre-designed pages
+- 📊 Google analytics support
+- 📬 Contact form support
+- 🗺️ Google map support
+- ⚡ Google page speed optimized
+- 🌐 Open graph meta tag
+- 🐦 Twitter card meta tag
 
-- Google analytics  support
-- Contact form Support
-- Google map support
-- Google page speed optimized
-- Open graph meta tag
-- Twitter card meta tag
+## 📄 7+ Pre-Designed Pages
+- 🏠Home
+- 👤About
+- 📞Contact
+- 📝 Blog Pages
+- 📄 Blog Single Pages
+- 🛠️ Service Page
+- 🖼️ Gallery Page
 
-## Local development
+## 🔧Local development
 
 ```bash
 # clone the repository
@@ -54,7 +63,7 @@ $ hugo server --themesDir ../..
 
 Or Check out [Full Documentation](https://docs.gethugothemes.com/timer/?ref=github).
 
-## Content Management System
+## 📋Content Management System
 
 [![import to
 Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=themefisher/timer-hugo&engine=hugo&version=0.87.0)
@@ -65,27 +74,27 @@ you will be able to edit and preview your site ✨.
 
 Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
 
-## Deployment and hosting
+## 🔧Deployment and hosting
 
 [![Deploy to
 Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/themefisher/timer-hugo)
 
 Follow the steps.
 
-## Prefer a video? (Hugo + Netlify + Forestry)
+## 🎥Prefer a video? (Hugo + Netlify + Forestry)
 
 Build your website with **timer hugo** theme by following these easy steps (No Coding Required!)
 [Video Tutorial](https://youtu.be/ResipmZmpDU).
 
 <!-- reporting issue -->
-## Reporting Issues
+## 🐞Reporting Issues
 
 We use GitHub Issues as the official bug tracker for the timer Template. Please Search [existing
 issues](https://github.com/themefisher/timer-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/themefisher/timer-hugo/issues).
 
-## Submit Your Website To Our Showcase
+## 📱Submit Your Website To Our Showcase
 
 Are you using Timer Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
 
@@ -95,7 +104,7 @@ Our showcase aims to demonstrate to the world what amazing websites people like 
 
 
 <!-- licence -->
-## License
+## 📄License
 
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
 [Gethugothemes](https://gethugothemes.com)
@@ -106,7 +115,7 @@ Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed 
 share those images.
 
 <!-- resources -->
-## Special Thanks
+## 🙏Special Thanks
 
 - [Bootstrap](https://getbootstrap.com)
 - [Jquery](https://jquery.com)
@@ -120,7 +129,7 @@ share those images.
 - [Google Fonts](https://fonts.google.com/)
 - [All Contributors](https://github.com/themefisher/timer-hugo/graphs/contributors)
 
-## Hire Us
+## 👨‍💻Hire Us
 
 Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo.
 
@@ -128,7 +137,7 @@ If you need to customize the theme or complete website development from scratch,
 [Services](https://gethugothemes.com/services/?utm_source=timer_github&utm_medium=referral&utm_campaign=github_theme_readme)**
 
 <!-- premium themes -->
-## Premium Themes By Us
+## 💎Premium Themes By Us
 
 | [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=timer_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Meghna](https://demo.gethugothemes.com/thumbnails/meghna.png)](https://gethugothemes.com/products/meghna/) | [![Northendlab](https://demo.gethugothemes.com/thumbnails/northendlab.png)](https://gethugothemes.com/products/northendlab/) |
 |:---:|:---:|:---:|
