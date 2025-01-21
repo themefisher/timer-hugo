@@ -10,7 +10,7 @@
           data-wow-duration="500ms" data-wow-delay=".5s">{{ . }}</p>{{ end }}
         <div id="clients-logo" class="clients-logo-slider">
           {{ range .Site.Data.client.clientsLogo }}
-          <img class="img-fluid mx-2" src="{{ .image | absURL }}" alt="client-logo">
+          {{ partial "image.html" (dict "Src" .image "Alt" "client-logo" "Class" "img-fluid mx-2" ) }}
           {{ end }}
         </div>
       </div>

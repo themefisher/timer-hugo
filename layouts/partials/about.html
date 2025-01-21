@@ -11,7 +11,9 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-					{{ with .Site.Params.about.image }}<img src="{{ . | absURL }}" alt="about-image">{{ end }}
+					{{ with .Site.Params.about.image }}
+					{{ partial "image.html" (dict "Src" . "Alt" "about-image" ) }}
+					{{ end }}
 				</div>
 			</div>
 		</div>

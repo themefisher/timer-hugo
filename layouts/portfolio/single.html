@@ -28,7 +28,7 @@
         {{ with .Params.image }}
         <div class="work-single-image">
           <!-- Work Single Image -->
-          <img class="img-fluid w-100" src="{{ . | absURL }}" alt="work-single-image">
+          {{ partial "image.html" (dict "Src" . "Alt" "work-single-image" "Class" "img-fluid w-100" ) }}
         </div>
         {{ end }}
         <!-- work single Content -->

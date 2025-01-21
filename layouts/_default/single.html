@@ -24,7 +24,7 @@
 			<div class="col-md-12">
 				{{ with .Params.image }}
 				<div class="post-img">
-					<img class="img-fluid" alt="" src="{{ . | absURL }}">
+					{{ partial "image.html" (dict "Src" . "Alt" "image" "Class" "img-fluid" ) }}
 				</div>
 				{{ end }}
 				<div class="post-content">

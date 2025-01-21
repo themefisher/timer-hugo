@@ -12,7 +12,9 @@
 
 					<div class="blog-post-image">
 						<a href="{{ .Permalink }}">
-							{{ with .Params.image }}<img class="img-fluid" src="{{ . | absURL }}" alt="post-image" />{{ end }}
+							{{ with .Params.image }}
+							{{ partial "image.html" (dict "Src" . "Alt" "post-image" "Class" "img-fluid" ) }}
+							{{ end }}
 						</a>
 					</div>
 					<div class="blog-content">

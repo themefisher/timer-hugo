@@ -7,7 +7,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
-				{{ with .Site.Data.about.image }}<img src="{{ . | absURL }}" alt="" class="img-fluid">{{ end }}
+				{{ with .Site.Data.about.image }}
+				{{ partial "image.html" (dict "Src" . "Alt" "image" "Class" "img-fluid" ) }}
+				{{ end }}
 			</div>
 			<div class="col-md-6">
 				<div class="block">

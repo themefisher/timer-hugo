@@ -1,6 +1,6 @@
 {{ if .Site.Params.banner.enable }}
 {{ "<!-- Slider Section Start -->" | safeHTML }}
-<section id="hero-area" style='background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
+<section id="hero-area" {{ partial `bg-image.html` (dict `Src` .Site.Params.banner.bgImage ) | safeHTMLAttr }}>
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">

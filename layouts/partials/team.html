@@ -12,7 +12,7 @@
 				<div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
 					{{ with .image }}
 					<div class="team-img">
-						<img src="{{ . | absURL }}" class="team-pic" alt="team-member">
+						{{ partial "image.html" (dict "Src" . "Alt" "team-member" "Class" "team-pic" ) }}
 					</div>
 					{{ end }}
 					{{ with .name }}<h3 class="team_name">{{ . }}</h3>{{ end }}
