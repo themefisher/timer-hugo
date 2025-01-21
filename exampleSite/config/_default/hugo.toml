@@ -1,0 +1,6 @@
+baseURL = "https://demo.gethugothemes.com/timer/site/"
+languageCode = "en-us"
+title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "timer-hugo"
+# post pagination
+pagination.pagerSize = "2" # see https://gohugo.io/extras/pagination/
