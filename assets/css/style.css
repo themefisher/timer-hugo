@@ -103,7 +103,7 @@ a:hover {
 }
 
 .fancybox-close {
-  background: url("../images/icons/close.png") no-repeat scroll 0 0 transparent;
+  background: url("../icons/close.png") no-repeat scroll 0 0 transparent;
   height: 50px;
   right: 0;
   top: 0;
@@ -111,14 +111,14 @@ a:hover {
 }
 
 .fancybox-next span {
-  background: url("../images/icons/right.png") no-repeat scroll center center #009ee3;
+  background: url("../icons/right.png") no-repeat scroll center center #009ee3;
   height: 50px;
   width: 50px;
   right: 0;
 }
 
 .fancybox-prev span {
-  background: url("../images/icons/left.png") no-repeat scroll center center #009ee3;
+  background: url("../icons/left.png") no-repeat scroll center center #009ee3;
   height: 50px;
   width: 50px;
   left: 0;
